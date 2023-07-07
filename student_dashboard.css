@@ -1,0 +1,189 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+  }
+  
+  .container {
+    max-width: 1180px;
+    margin-inline: auto;
+    overflow-x: hidden;
+  }
+
+  .container-2{
+    max-width: 27rem;
+    margin-block: 3rem;
+    margin-inline: auto;
+    overflow-x: hidden;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  li a {
+    text-decoration:none;
+  }
+  
+  .flex {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 5rem;
+    /* mix-blend-mode: multiply; */
+    position: relative;
+    z-index: 100;
+  }
+  
+  .nav-cont {
+    justify-content: space-between;
+  }
+  
+  .nav-list {
+    justify-content: space-between;
+    gap: 5rem;
+  }
+  
+  .nav-list a {
+    color: white;
+    font-weight: 400;
+  }
+  
+  a:hover {
+    color: red;
+  }
+  
+  nav {
+    background-color: #050505;
+    box-shadow: 0 0 4px #0f0f0f;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+  }
+  
+  
+  
+  /* .header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('assets/luca-bravo-XJXWbfSo2f0-unsplash.jpg');
+    height:200vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }  */
+  
+
+
+  .main-heading{
+    color: rgb(255, 253, 253);
+    font-size: 3rem;
+    top: 12rem;
+    position: relative;
+    justify-content: center;
+  }
+  
+  .signup-box {
+    background-color: #f3faff;
+    width: 35%;
+    height: 40%;
+    position: relative;
+    top: 20rem;
+    left: 50rem;
+    border-radius: 10%;
+    box-shadow: 0px 0px 10px rgb(217, 216, 223);
+
+
+  }
+
+   .mentor-form{
+   position: relative;
+   top: 23rem;
+   left: 52rem;
+   gap: 1.5rem;
+  }
+
+  .mentor-form p{
+    color: white;
+    font-size: 1.3rem;
+    position: relative;
+    top: 0.5rem;
+
+  }
+
+
+  .card {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 14rem;
+    margin-bottom: 14rem;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  .logout {
+    background-color: #ff0000;
+    color: #ffffff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .student-details {
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"],
+  input[type="email"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus {
+    border-color: #007bff;
+  }
+  
+  .view-results {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+
+
+  
